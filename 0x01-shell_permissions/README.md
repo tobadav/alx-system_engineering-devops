@@ -12,3 +12,7 @@ Write a script that sets the mode of the file
 execute permission to all subdirectories of the current directory
 Create a script that creates a directory called my dir with permissions 751 in the working directory
 changes the group
+Write a script that changes the owner to vincent
+Write a script that changes the owner and the group owner
+Write a script that changes the owner of the file
+Write a script that will play the StarWars IV episode in the termina
