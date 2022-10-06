@@ -1,2 +1,2 @@
 #!/bin/bash
-crown vincent:staff *
+chown vincent:staff *
