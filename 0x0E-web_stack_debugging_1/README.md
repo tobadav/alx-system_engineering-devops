@@ -1,0 +1,3 @@
+Web stack debugging #1, code 0x0E
+
+Basic Requirements Vi, Vim, and Emacs are accepted editors. On Ubuntu 20.04 LTS, all of your files will be translated. A new line should be added at the conclusion of each file. There must be a README.md file at the top of the project folder. You must make all of your Bash script files executable. Your Bash scripts must successfully pass Shellcheck with no mistakes. Your Bash scripts must function flawlessly. All of your Bash scripts should begin with the precise phrase #!/usr/bin/env bash. All of your Bash scripts should have a remark stating what the script is doing on line two. Wget is not permitted to be used.
