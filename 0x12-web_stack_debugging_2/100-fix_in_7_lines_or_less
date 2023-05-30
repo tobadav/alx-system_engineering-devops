@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
-# improvment server
-pkill apache2
-chown -R nginx:nginx /etc/nginx/
-chmod 666 /etc/nginx/nginx.conf
-sed -i "s/80/8080/" /etc/nginx/sites-enabled/default
-su - nginx -c 'service nginx start'
+pkill -f apache2
+chmod 644 /etc/nginx/nginx.conf
+sed -Ei 's/\s*#?\s*user .*/user nginx;/' /etc/nginx/nginx.conf
+sed -Ei 's/(listen (\[::\]:)?80) /\180 /' /etc/nginx/sites-enabled/default
+sudo -u nginx service nginx restart
